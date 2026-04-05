@@ -1391,10 +1391,10 @@ The difference is built through **three habits:**
 
 | Week             | Patterns                        | Daily Goal        | Focus                                                                            |
 | ---------------- | ------------------------------- | ----------------- | -------------------------------------------------------------------------------- |
-| **Week 1** | [Arrays & Hashing](#pattern-#1-—-arrays-&-hashing) + Two Pointers | 3 problems/day    | Get comfortable with the basics. Every Easy must be solved, then attack Mediums. |
-| **Week 2** | Sliding Window + Prefix Sum     | 3 problems/day    | Master the "window mindset." Draw every window change on paper first.            |
-| **Week 3** | Binary Search (both variants)   | 2–3 problems/day | Nail the template. Write `isValid()`for answer-space problems before coding.   |
-| **Week 4** | Linked List + Stack             | 2–3 problems/day | Pointer diagrams are mandatory. Draw every reversal.                             |
+| **Week 1** | [Arrays & Hashing](#pattern-1--arrays--hashing) + [Two Pointers](#pattern-2--two-pointers) | 3 problems/day    | Get comfortable with the basics. Every Easy must be solved, then attack Mediums. |
+| **Week 2** | [Sliding Window](#pattern-3--sliding-window) + [Prefix Sum](#pattern-4--prefix-sum)     | 3 problems/day    | Master the "window mindset." Draw every window change on paper first.            |
+| **Week 3** | [Binary Search (both variants)](#pattern-5--binary-search)   | 2–3 problems/day | Nail the template. Write `isValid()`for answer-space problems before coding.   |
+| **Week 4** | [Linked List](#pattern-6--linked-list-fastslow-pointers--reversal) + [Stack](#pattern-7--stack--monotonic-stack) + [Queue](#pattern-8--queue--monotonic-queue)             | 2–3 problems/day | Pointer diagrams are mandatory. Draw every reversal.                             |
 
 **Week 4 Milestone:** You should be able to solve any Easy under 10 mins, and most Mediums from Patterns 1–6 under 25 mins. If not — spend another week in review before moving on.
 
@@ -1406,12 +1406,12 @@ The difference is built through **three habits:**
 
 | Week              | Patterns                      | Daily Goal        | Focus                                                                                                       |
 | ----------------- | ----------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------- |
-| **Week 5**  | Trees — BFS + DFS            | 3 problems/day    | Master recursive DFS. Code BFS with a queue, not recursion.                                                 |
-| **Week 6**  | BST + Tries                   | 2 problems/day    | BST properties, Trie insert/search. Not glamorous but frequently tested.                                    |
-| **Week 7**  | Heap / Priority Queue         | 2–3 problems/day | Know the `heapq`API cold. Top-K problems are everywhere.                                                  |
-| **Week 8**  | Backtracking                  | 2 problems/day    | Slow down. Draw the decision tree before coding. Every backtracking has 3 parts: choose, explore, unchoose. |
-| **Week 9**  | Graphs — BFS & DFS           | 2–3 problems/day | Build adjacency list. Know both BFS (queue) and DFS (stack/recursion).                                      |
-| **Week 10** | Topological Sort + Union-Find | 2 problems/day    | Topo sort = cycle detection + ordering. Union-Find = connectivity.                                          |
+| **Week 5**  | Trees — [BFS](#pattern-9--trees-bfs-level-order-traversal) + [DFS](#pattern-10--trees-dfs-preinpost-order)            | 3 problems/day    | Master recursive DFS. Code BFS with a queue, not recursion.                                                 |
+| **Week 6**  | [BST](#pattern-11--binary-search-tree-bst) + [Tries](#pattern-12--tries-prefix-trees)                   | 2 problems/day    | BST properties, Trie insert/search. Not glamorous but frequently tested.                                    |
+| **Week 7**  | [Heap / Priority Queue](#pattern-13--heap--priority-queue)         | 2–3 problems/day | Know the `heapq`API cold. Top-K problems are everywhere.                                                  |
+| **Week 8**  | [Backtracking](#pattern-14--backtracking)                  | 2 problems/day    | Slow down. Draw the decision tree before coding. Every backtracking has 3 parts: choose, explore, unchoose. |
+| **Week 9**  |[ Graphs — BFS & DFS](#pattern-15--graphs-bfs--dfs)           | 2–3 problems/day | Build adjacency list. Know both BFS (queue) and DFS (stack/recursion).                                      |
+| **Week 10** | [Topological Sort](#pattern-16--graphs-topological-sort) + [Union-Find](#pattern-17--union-find-disjoint-set-union) | 2 problems/day    | Topo sort = cycle detection + ordering. Union-Find = connectivity.                                          |
 
 **Week 10 Milestone:** You should consistently solve Graph Mediums. At this point you are ready for ~70% of real interview questions.
 
@@ -1421,12 +1421,12 @@ The difference is built through **three habits:**
 
 | Week              | Patterns                         | Daily Goal        | Focus                                                                        |
 | ----------------- | -------------------------------- | ----------------- | ---------------------------------------------------------------------------- |
-| **Week 11** | DP 1D + Kadane's                 | 2 problems/day    | State definition is everything. Write `dp[i] = ?`in English before code.   |
-| **Week 12** | DP 2D/Grid + Knapsack            | 2 problems/day    | Draw the dp table. Fill it manually for a small example.                     |
-| **Week 13** | DP LCS/LIS + Intervals           | 2 problems/day    | LCS/LIS are pattern templates — memorize the recurrence, not the code.      |
-| **Week 14** | Greedy + Intervals (merge/sweep) | 2–3 problems/day | Greedy = make the locally optimal choice. Prove it works before coding.      |
-| **Week 15** | Math & Bit Manipulation          | 2 problems/day    | XOR tricks, power of 2 checks, bit counting — know 10 core tricks cold.     |
-| **Week 16** | Advanced (Bitmask DP, KMP, etc.) | 1–2 problems/day | Only if targeting top-tier companies. Skip and do mock interviews otherwise. |
+| **Week 11** | [DP 1D](#pattern-18--dynamic-programming-1d) + [Kadane's](#pattern-20--dp-kadanes-algorithm--variants)                 | 2 problems/day    | State definition is everything. Write `dp[i] = ?`in English before code.   |
+| **Week 12** | [DP 2D/Grid](#pattern-19--dp-2d--grid) + [Knapsack](#pattern-21--dp-01-knapsack--unbounded-knapsack)            | 2 problems/day    | Draw the dp table. Fill it manually for a small example.                     |
+| **Week 13** | [DP LCS/LIS](#pattern-22--dp-lcs--lis-family) + [Intervals](#pattern-23--dp-interval-dp)           | 2 problems/day    | LCS/LIS are pattern templates — memorize the recurrence, not the code.      |
+| **Week 14** | [Greedy](#pattern-25--greedy-algorithms) + [Intervals (merge/sweep)](#pattern-26--intervals-merge--sweep) | 2–3 problems/day | Greedy = make the locally optimal choice. Prove it works before coding.      |
+| **Week 15** | [Math & Bit Manipulation ](#pattern-27--math--bit-manipulation)         | 2 problems/day    | XOR tricks, power of 2 checks, bit counting — know 10 core tricks cold.     |
+| **Week 16** | Advanced ([Bitmask DP](#pattern-24--dp-bitmask-advanced), [KMP](#pattern-28--string-algorithms-kmp-rabin-karp), etc.) | 1–2 problems/day | Only if targeting top-tier companies. Skip and do mock interviews otherwise. |
 
 **Week 16 Milestone:** You can recognize DP patterns within 2 minutes and write the recurrence. You're interview-ready.
 
