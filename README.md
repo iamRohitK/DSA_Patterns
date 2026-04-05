@@ -8,10 +8,10 @@
 
 | Phase                 | Weeks  | Focus                 | Goal                            |
 | --------------------- | ------ | --------------------- | ------------------------------- |
-| **Foundation**  | 1–4   | Patterns 1–8         | Solve any Easy, attempt Mediums |
-| **Core**        | 5–10  | Patterns 9–17        | Solve Mediums confidently       |
-| **Advanced**    | 11–16 | Patterns 18–28       | Crack Hards, own DP             |
-| **Mock Sprint** | 17–20 | Full revision + mocks | Interview-ready                 |
+| **[Foundation](#phase-1-foundation-weeks-14)**  | 1–4   | Patterns 1–8         | Solve any Easy, attempt Mediums |
+| **[Core](#phase-2-core-weeks-510)**        | 5–10  | Patterns 9–17        | Solve Mediums confidently       |
+| **[Advanced](#phase-3-advanced--dp-weeks-1116)**    | 11–16 | Patterns 18–28       | Crack Hards, own DP             |
+| **[Mock Sprint](#phase-4-mock-sprint-weeks-1720)** | 17–20 | Full revision + mocks | Interview-ready                 |
 
 **Daily budget:** 1–2 hrs. **Non-negotiable split:** 70% solving, 30% reviewing what you got wrong.
 
