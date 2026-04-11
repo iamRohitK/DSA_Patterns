@@ -19,6 +19,64 @@
 
 ---
 
+# 🗺️ Week-by-Week Learning Schedule
+
+## Phase 1: Foundation (Weeks 1–4)
+
+| Week             | Patterns                        | Daily Goal        | Focus                                                                            |
+| ---------------- | ------------------------------- | ----------------- | -------------------------------------------------------------------------------- |
+| **Week 1** | [Arrays & Hashing](#pattern-1--arrays--hashing) + [Two Pointers](#pattern-2--two-pointers) | 3 problems/day    | Get comfortable with the basics. Every Easy must be solved, then attack Mediums. |
+| **Week 2** | [Sliding Window](#pattern-3--sliding-window) + [Prefix Sum](#pattern-4--prefix-sum)     | 3 problems/day    | Master the "window mindset." Draw every window change on paper first.            |
+| **Week 3** | [Binary Search (both variants)](#pattern-5--binary-search)   | 2–3 problems/day | Nail the template. Write `isValid()`for answer-space problems before coding.   |
+| **Week 4** | [Linked List](#pattern-6--linked-list-fastslow-pointers--reversal) + [Stack](#pattern-7--stack--monotonic-stack) + [Queue](#pattern-8--queue--monotonic-queue)             | 2–3 problems/day | Pointer diagrams are mandatory. Draw every reversal.                             |
+
+**Week 4 Milestone:** You should be able to solve any Easy under 10 mins, and most Mediums from Patterns 1–6 under 25 mins. If not — spend another week in review before moving on.
+
+**Revision days:** Every Saturday = re-solve 5 problems from the current week from scratch (no peeking). Every Sunday = redo 3 problems from previous weeks.
+
+---
+
+## Phase 2: Core (Weeks 5–10)
+
+| Week              | Patterns                      | Daily Goal        | Focus                                                                                                       |
+| ----------------- | ----------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Week 5**  | Trees — [BFS](#pattern-9--trees-bfs-level-order-traversal) + [DFS](#pattern-10--trees-dfs-preinpost-order)            | 3 problems/day    | Master recursive DFS. Code BFS with a queue, not recursion.                                                 |
+| **Week 6**  | [BST](#pattern-11--binary-search-tree-bst) + [Tries](#pattern-12--tries-prefix-trees)                   | 2 problems/day    | BST properties, Trie insert/search. Not glamorous but frequently tested.                                    |
+| **Week 7**  | [Heap / Priority Queue](#pattern-13--heap--priority-queue)         | 2–3 problems/day | Know the `heapq`API cold. Top-K problems are everywhere.                                                  |
+| **Week 8**  | [Backtracking](#pattern-14--backtracking)                  | 2 problems/day    | Slow down. Draw the decision tree before coding. Every backtracking has 3 parts: choose, explore, unchoose. |
+| **Week 9**  |[ Graphs — BFS & DFS](#pattern-15--graphs-bfs--dfs)           | 2–3 problems/day | Build adjacency list. Know both BFS (queue) and DFS (stack/recursion).                                      |
+| **Week 10** | [Topological Sort](#pattern-16--graphs-topological-sort) + [Union-Find](#pattern-17--union-find-disjoint-set-union) | 2 problems/day    | Topo sort = cycle detection + ordering. Union-Find = connectivity.                                          |
+
+**Week 10 Milestone:** You should consistently solve Graph Mediums. At this point you are ready for ~70% of real interview questions.
+
+---
+
+## Phase 3: Advanced / DP (Weeks 11–16)
+
+| Week              | Patterns                         | Daily Goal        | Focus                                                                        |
+| ----------------- | -------------------------------- | ----------------- | ---------------------------------------------------------------------------- |
+| **Week 11** | [DP 1D](#pattern-18--dynamic-programming-1d) + [Kadane's](#pattern-20--dp-kadanes-algorithm--variants)                 | 2 problems/day    | State definition is everything. Write `dp[i] = ?`in English before code.   |
+| **Week 12** | [DP 2D/Grid](#pattern-19--dp-2d--grid) + [Knapsack](#pattern-21--dp-01-knapsack--unbounded-knapsack)            | 2 problems/day    | Draw the dp table. Fill it manually for a small example.                     |
+| **Week 13** | [DP LCS/LIS](#pattern-22--dp-lcs--lis-family) + [Intervals](#pattern-23--dp-interval-dp)           | 2 problems/day    | LCS/LIS are pattern templates — memorize the recurrence, not the code.      |
+| **Week 14** | [Greedy](#pattern-25--greedy-algorithms) + [Intervals (merge/sweep)](#pattern-26--intervals-merge--sweep) | 2–3 problems/day | Greedy = make the locally optimal choice. Prove it works before coding.      |
+| **Week 15** | [Math & Bit Manipulation ](#pattern-27--math--bit-manipulation)         | 2 problems/day    | XOR tricks, power of 2 checks, bit counting — know 10 core tricks cold.     |
+| **Week 16** | Advanced ([Bitmask DP](#pattern-24--dp-bitmask-advanced), [KMP](#pattern-28--string-algorithms-kmp-rabin-karp), etc.) | 1–2 problems/day | Only if targeting top-tier companies. Skip and do mock interviews otherwise. |
+
+**Week 16 Milestone:** You can recognize DP patterns within 2 minutes and write the recurrence. You're interview-ready.
+
+---
+
+## Phase 4: Mock Sprint (Weeks 17–20)
+
+* **Daily:** 2 LeetCode problems under timed conditions (25–35 min each)
+* **Twice a week:** Full mock interview on Pramp, Interviewing.io, or with a friend
+* **Weekly:** Review all problems you got wrong that week — redo them the next day
+
+---
+
+---
+
+
 # PATTERN #1 — Arrays & Hashing
 
 ---
@@ -1353,95 +1411,6 @@ Greedy works when the problem has the **exchange argument property** — swappin
 
 ---
 
-# 🏁 You're Now Fully Equipped
-
-Here's the complete picture of everything you now have:
-
-| Phase              | Patterns                                  | Status    |
-| ------------------ | ----------------------------------------- | --------- |
-| Foundation         | 1–8 (Arrays through Queues)              | ✅ Part 1 |
-| Trees              | 9–12 (BFS, DFS, BST, Tries)              | ✅ Part 2 |
-| Core DS            | 13–14 (Heap, Backtracking)               | ✅ Part 2 |
-| Graphs             | 15–17 (BFS/DFS, Topo, Union-Find)        | ✅ Part 2 |
-| DP — All Variants | 18–24 (1D through Bitmask)               | ✅ Part 2 |
-| Advanced           | 25–28 (Greedy, Intervals, Bits, Strings) | ✅ Part 2 |
-
----
-
-## 🎯 What Separates Good from Great Candidates
-
-**Good candidates** can solve problems they've seen before.
-**Great candidates** see a new problem, identify the pattern in 60 seconds, and build the solution from first principles.
-
-The difference is built through **three habits:**
-
-**1. Always ask "what's the brute force?" first** — then ask "what's wasteful about it?" The answer to the second question IS the pattern.
-
-**2. Never just solve — always classify.** After every problem you do, write one sentence: *"This was a [pattern] problem because [trigger]. I recognized it when I saw [clue]."* Do this for 100 problems and pattern recognition becomes automatic.
-
-**3. Revisit your failures.** The problems that took you >30 minutes or that you had to peek at — those are your gold. Re-solve them cold in 48 hours, 7 days, and 30 days. Mastery is built in the reps after the first solve, not during it.
-
----
-
-
-
-# 🗺️ Week-by-Week Learning Schedule
-
-## Phase 1: Foundation (Weeks 1–4)
-
-| Week             | Patterns                        | Daily Goal        | Focus                                                                            |
-| ---------------- | ------------------------------- | ----------------- | -------------------------------------------------------------------------------- |
-| **Week 1** | [Arrays & Hashing](#pattern-1--arrays--hashing) + [Two Pointers](#pattern-2--two-pointers) | 3 problems/day    | Get comfortable with the basics. Every Easy must be solved, then attack Mediums. |
-| **Week 2** | [Sliding Window](#pattern-3--sliding-window) + [Prefix Sum](#pattern-4--prefix-sum)     | 3 problems/day    | Master the "window mindset." Draw every window change on paper first.            |
-| **Week 3** | [Binary Search (both variants)](#pattern-5--binary-search)   | 2–3 problems/day | Nail the template. Write `isValid()`for answer-space problems before coding.   |
-| **Week 4** | [Linked List](#pattern-6--linked-list-fastslow-pointers--reversal) + [Stack](#pattern-7--stack--monotonic-stack) + [Queue](#pattern-8--queue--monotonic-queue)             | 2–3 problems/day | Pointer diagrams are mandatory. Draw every reversal.                             |
-
-**Week 4 Milestone:** You should be able to solve any Easy under 10 mins, and most Mediums from Patterns 1–6 under 25 mins. If not — spend another week in review before moving on.
-
-**Revision days:** Every Saturday = re-solve 5 problems from the current week from scratch (no peeking). Every Sunday = redo 3 problems from previous weeks.
-
----
-
-## Phase 2: Core (Weeks 5–10)
-
-| Week              | Patterns                      | Daily Goal        | Focus                                                                                                       |
-| ----------------- | ----------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------- |
-| **Week 5**  | Trees — [BFS](#pattern-9--trees-bfs-level-order-traversal) + [DFS](#pattern-10--trees-dfs-preinpost-order)            | 3 problems/day    | Master recursive DFS. Code BFS with a queue, not recursion.                                                 |
-| **Week 6**  | [BST](#pattern-11--binary-search-tree-bst) + [Tries](#pattern-12--tries-prefix-trees)                   | 2 problems/day    | BST properties, Trie insert/search. Not glamorous but frequently tested.                                    |
-| **Week 7**  | [Heap / Priority Queue](#pattern-13--heap--priority-queue)         | 2–3 problems/day | Know the `heapq`API cold. Top-K problems are everywhere.                                                  |
-| **Week 8**  | [Backtracking](#pattern-14--backtracking)                  | 2 problems/day    | Slow down. Draw the decision tree before coding. Every backtracking has 3 parts: choose, explore, unchoose. |
-| **Week 9**  |[ Graphs — BFS & DFS](#pattern-15--graphs-bfs--dfs)           | 2–3 problems/day | Build adjacency list. Know both BFS (queue) and DFS (stack/recursion).                                      |
-| **Week 10** | [Topological Sort](#pattern-16--graphs-topological-sort) + [Union-Find](#pattern-17--union-find-disjoint-set-union) | 2 problems/day    | Topo sort = cycle detection + ordering. Union-Find = connectivity.                                          |
-
-**Week 10 Milestone:** You should consistently solve Graph Mediums. At this point you are ready for ~70% of real interview questions.
-
----
-
-## Phase 3: Advanced / DP (Weeks 11–16)
-
-| Week              | Patterns                         | Daily Goal        | Focus                                                                        |
-| ----------------- | -------------------------------- | ----------------- | ---------------------------------------------------------------------------- |
-| **Week 11** | [DP 1D](#pattern-18--dynamic-programming-1d) + [Kadane's](#pattern-20--dp-kadanes-algorithm--variants)                 | 2 problems/day    | State definition is everything. Write `dp[i] = ?`in English before code.   |
-| **Week 12** | [DP 2D/Grid](#pattern-19--dp-2d--grid) + [Knapsack](#pattern-21--dp-01-knapsack--unbounded-knapsack)            | 2 problems/day    | Draw the dp table. Fill it manually for a small example.                     |
-| **Week 13** | [DP LCS/LIS](#pattern-22--dp-lcs--lis-family) + [Intervals](#pattern-23--dp-interval-dp)           | 2 problems/day    | LCS/LIS are pattern templates — memorize the recurrence, not the code.      |
-| **Week 14** | [Greedy](#pattern-25--greedy-algorithms) + [Intervals (merge/sweep)](#pattern-26--intervals-merge--sweep) | 2–3 problems/day | Greedy = make the locally optimal choice. Prove it works before coding.      |
-| **Week 15** | [Math & Bit Manipulation ](#pattern-27--math--bit-manipulation)         | 2 problems/day    | XOR tricks, power of 2 checks, bit counting — know 10 core tricks cold.     |
-| **Week 16** | Advanced ([Bitmask DP](#pattern-24--dp-bitmask-advanced), [KMP](#pattern-28--string-algorithms-kmp-rabin-karp), etc.) | 1–2 problems/day | Only if targeting top-tier companies. Skip and do mock interviews otherwise. |
-
-**Week 16 Milestone:** You can recognize DP patterns within 2 minutes and write the recurrence. You're interview-ready.
-
----
-
-## Phase 4: Mock Sprint (Weeks 17–20)
-
-* **Daily:** 2 LeetCode problems under timed conditions (25–35 min each)
-* **Twice a week:** Full mock interview on Pramp, Interviewing.io, or with a friend
-* **Weekly:** Review all problems you got wrong that week — redo them the next day
-
----
-
----
-
 # 🔁 The Revision System (Never Forget Again)
 
 ## Spaced Repetition Schedule
@@ -1527,3 +1496,20 @@ Do this the week before any interview:
 | **Day 5** | Full mock interview × 2. Focus on talking out loud.                                  |
 | **Day 6** | Review only your flashcard fronts (pattern triggers). Rest. No new problems.          |
 | **Day 7** | Interview day. You're ready.                                                          |
+
+---
+
+## 🎯 What Separates Good from Great Candidates
+
+**Good candidates** can solve problems they've seen before.
+**Great candidates** see a new problem, identify the pattern in 60 seconds, and build the solution from first principles.
+
+The difference is built through **three habits:**
+
+**1. Always ask "what's the brute force?" first** — then ask "what's wasteful about it?" The answer to the second question IS the pattern.
+
+**2. Never just solve — always classify.** After every problem you do, write one sentence: *"This was a [pattern] problem because [trigger]. I recognized it when I saw [clue]."* Do this for 100 problems and pattern recognition becomes automatic.
+
+**3. Revisit your failures.** The problems that took you >30 minutes or that you had to peek at — those are your gold. Re-solve them cold in 48 hours, 7 days, and 30 days. Mastery is built in the reps after the first solve, not during it.
+
+---
